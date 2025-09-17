@@ -38,7 +38,7 @@ st.pyplot(fig)
 st.subheader('Price Prediction')
 
 try:
-    model = load_model('keras_model.h5')
+    model = load_model('keras_model.keras')
     st.success("Model loaded!")
     
     # Prepare data
